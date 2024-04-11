@@ -1,1 +1,1 @@
-# single-thread-socket
+single threaded socket server-client in java
