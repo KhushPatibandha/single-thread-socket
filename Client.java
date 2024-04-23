@@ -25,6 +25,11 @@ public class Client {
             bufferedWriter = new BufferedWriter(outputStreamWriter);
 
             Scanner sc = new Scanner(System.in);
+            String token = "Hi, I am under the water";
+            bufferedWriter.write(token);
+            bufferedWriter.newLine();
+            bufferedWriter.flush();
+
             while (true) {
                 String messageToBeSent = sc.nextLine();
                 bufferedWriter.write(messageToBeSent);
